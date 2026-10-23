@@ -1,0 +1,1002 @@
+[
+    {
+        "id":  "1",
+        "flight_number":  "RO1000",
+        "destination":  "London Heathrow",
+        "airline":  "TAROM",
+        "status":  "On Time",
+        "gate":  "A01",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T05:00:00+03:00"
+    },
+    {
+        "id":  "2",
+        "flight_number":  "LH1007",
+        "destination":  "Munich",
+        "airline":  "Lufthansa",
+        "status":  "On Time",
+        "gate":  "B02",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T05:10:00+03:00"
+    },
+    {
+        "id":  "3",
+        "flight_number":  "W41014",
+        "destination":  "Milan Malpensa",
+        "airline":  "Wizz Air",
+        "status":  "Delayed",
+        "gate":  "C03",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T05:20:00+03:00"
+    },
+    {
+        "id":  "4",
+        "flight_number":  "TK1021",
+        "destination":  "Istanbul",
+        "airline":  "Turkish Airlines",
+        "status":  "On Time",
+        "gate":  "A04",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T05:30:00+03:00"
+    },
+    {
+        "id":  "5",
+        "flight_number":  "AF1028",
+        "destination":  "Paris Charles de Gaulle",
+        "airline":  "Air France",
+        "status":  "On Time",
+        "gate":  "B05",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T05:40:00+03:00"
+    },
+    {
+        "id":  "6",
+        "flight_number":  "KL1035",
+        "destination":  "Amsterdam",
+        "airline":  "KLM",
+        "status":  "Delayed",
+        "gate":  "C06",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T05:50:00+03:00"
+    },
+    {
+        "id":  "7",
+        "flight_number":  "OS1042",
+        "destination":  "Vienna",
+        "airline":  "Austrian Airlines",
+        "status":  "On Time",
+        "gate":  "A07",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T06:00:00+03:00"
+    },
+    {
+        "id":  "8",
+        "flight_number":  "LX1049",
+        "destination":  "Zurich",
+        "airline":  "Swiss",
+        "status":  "Cancelled",
+        "gate":  "B08",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T06:10:00+03:00"
+    },
+    {
+        "id":  "9",
+        "flight_number":  "FR1056",
+        "destination":  "Rome Fiumicino",
+        "airline":  "Ryanair",
+        "status":  "On Time",
+        "gate":  "C09",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T06:20:00+03:00"
+    },
+    {
+        "id":  "10",
+        "flight_number":  "BA1063",
+        "destination":  "London Heathrow",
+        "airline":  "British Airways",
+        "status":  "On Time",
+        "gate":  "A10",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T06:30:00+03:00"
+    },
+    {
+        "id":  "11",
+        "flight_number":  "LO1070",
+        "destination":  "Warsaw",
+        "airline":  "LOT Polish Airlines",
+        "status":  "On Time",
+        "gate":  "B11",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T06:40:00+03:00"
+    },
+    {
+        "id":  "12",
+        "flight_number":  "A31077",
+        "destination":  "Athens",
+        "airline":  "Aegean Airlines",
+        "status":  "On Time",
+        "gate":  "C12",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T06:50:00+03:00"
+    },
+    {
+        "id":  "13",
+        "flight_number":  "JU1084",
+        "destination":  "Belgrade",
+        "airline":  "Air Serbia",
+        "status":  "Delayed",
+        "gate":  "A13",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T07:00:00+03:00"
+    },
+    {
+        "id":  "14",
+        "flight_number":  "FZ1091",
+        "destination":  "Dubai",
+        "airline":  "flydubai",
+        "status":  "On Time",
+        "gate":  "B14",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T07:10:00+03:00"
+    },
+    {
+        "id":  "15",
+        "flight_number":  "QR1098",
+        "destination":  "Doha",
+        "airline":  "Qatar Airways",
+        "status":  "On Time",
+        "gate":  "C15",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T07:20:00+03:00"
+    },
+    {
+        "id":  "16",
+        "flight_number":  "W41105",
+        "destination":  "Barcelona",
+        "airline":  "Wizz Air",
+        "status":  "Delayed",
+        "gate":  "A16",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T07:30:00+03:00"
+    },
+    {
+        "id":  "17",
+        "flight_number":  "RO1112",
+        "destination":  "Cluj-Napoca",
+        "airline":  "TAROM",
+        "status":  "On Time",
+        "gate":  "B17",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T07:40:00+03:00"
+    },
+    {
+        "id":  "18",
+        "flight_number":  "LH1119",
+        "destination":  "Frankfurt",
+        "airline":  "Lufthansa",
+        "status":  "Cancelled",
+        "gate":  "C18",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T07:50:00+03:00"
+    },
+    {
+        "id":  "19",
+        "flight_number":  "FR1126",
+        "destination":  "Brussels Charleroi",
+        "airline":  "Ryanair",
+        "status":  "On Time",
+        "gate":  "A19",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T08:00:00+03:00"
+    },
+    {
+        "id":  "20",
+        "flight_number":  "W41133",
+        "destination":  "Madrid",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "B20",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T08:10:00+03:00"
+    },
+    {
+        "id":  "21",
+        "flight_number":  "RO1140",
+        "destination":  "Timisoara",
+        "airline":  "TAROM",
+        "status":  "On Time",
+        "gate":  "C01",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T08:20:00+03:00"
+    },
+    {
+        "id":  "22",
+        "flight_number":  "W41147",
+        "destination":  "Lisbon",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "A02",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T08:30:00+03:00"
+    },
+    {
+        "id":  "23",
+        "flight_number":  "FR1154",
+        "destination":  "Dublin",
+        "airline":  "Ryanair",
+        "status":  "Delayed",
+        "gate":  "B03",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T08:40:00+03:00"
+    },
+    {
+        "id":  "24",
+        "flight_number":  "SK1161",
+        "destination":  "Copenhagen",
+        "airline":  "Scandinavian Airlines",
+        "status":  "On Time",
+        "gate":  "C04",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T08:50:00+03:00"
+    },
+    {
+        "id":  "25",
+        "flight_number":  "AY1168",
+        "destination":  "Helsinki",
+        "airline":  "Finnair",
+        "status":  "On Time",
+        "gate":  "A05",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T09:00:00+03:00"
+    },
+    {
+        "id":  "26",
+        "flight_number":  "RO1175",
+        "destination":  "London Heathrow",
+        "airline":  "TAROM",
+        "status":  "Delayed",
+        "gate":  "B06",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T09:10:00+03:00"
+    },
+    {
+        "id":  "27",
+        "flight_number":  "LH1182",
+        "destination":  "Munich",
+        "airline":  "Lufthansa",
+        "status":  "On Time",
+        "gate":  "C07",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T09:20:00+03:00"
+    },
+    {
+        "id":  "28",
+        "flight_number":  "W41189",
+        "destination":  "Milan Malpensa",
+        "airline":  "Wizz Air",
+        "status":  "Cancelled",
+        "gate":  "A08",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T09:30:00+03:00"
+    },
+    {
+        "id":  "29",
+        "flight_number":  "TK1196",
+        "destination":  "Istanbul",
+        "airline":  "Turkish Airlines",
+        "status":  "On Time",
+        "gate":  "B09",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T09:40:00+03:00"
+    },
+    {
+        "id":  "30",
+        "flight_number":  "AF1203",
+        "destination":  "Paris Charles de Gaulle",
+        "airline":  "Air France",
+        "status":  "On Time",
+        "gate":  "C10",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T09:50:00+03:00"
+    },
+    {
+        "id":  "31",
+        "flight_number":  "KL1210",
+        "destination":  "Amsterdam",
+        "airline":  "KLM",
+        "status":  "On Time",
+        "gate":  "A11",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T10:00:00+03:00"
+    },
+    {
+        "id":  "32",
+        "flight_number":  "OS1217",
+        "destination":  "Vienna",
+        "airline":  "Austrian Airlines",
+        "status":  "On Time",
+        "gate":  "B12",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T10:10:00+03:00"
+    },
+    {
+        "id":  "33",
+        "flight_number":  "LX1224",
+        "destination":  "Zurich",
+        "airline":  "Swiss",
+        "status":  "Delayed",
+        "gate":  "C13",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T10:20:00+03:00"
+    },
+    {
+        "id":  "34",
+        "flight_number":  "FR1231",
+        "destination":  "Rome Fiumicino",
+        "airline":  "Ryanair",
+        "status":  "On Time",
+        "gate":  "A14",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T10:30:00+03:00"
+    },
+    {
+        "id":  "35",
+        "flight_number":  "BA1238",
+        "destination":  "London Heathrow",
+        "airline":  "British Airways",
+        "status":  "On Time",
+        "gate":  "B15",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T10:40:00+03:00"
+    },
+    {
+        "id":  "36",
+        "flight_number":  "LO1245",
+        "destination":  "Warsaw",
+        "airline":  "LOT Polish Airlines",
+        "status":  "Delayed",
+        "gate":  "C16",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T10:50:00+03:00"
+    },
+    {
+        "id":  "37",
+        "flight_number":  "A31252",
+        "destination":  "Athens",
+        "airline":  "Aegean Airlines",
+        "status":  "On Time",
+        "gate":  "A17",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T11:00:00+03:00"
+    },
+    {
+        "id":  "38",
+        "flight_number":  "JU1259",
+        "destination":  "Belgrade",
+        "airline":  "Air Serbia",
+        "status":  "Cancelled",
+        "gate":  "B18",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T11:10:00+03:00"
+    },
+    {
+        "id":  "39",
+        "flight_number":  "FZ1266",
+        "destination":  "Dubai",
+        "airline":  "flydubai",
+        "status":  "On Time",
+        "gate":  "C19",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T11:20:00+03:00"
+    },
+    {
+        "id":  "40",
+        "flight_number":  "QR1273",
+        "destination":  "Doha",
+        "airline":  "Qatar Airways",
+        "status":  "On Time",
+        "gate":  "A20",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T11:30:00+03:00"
+    },
+    {
+        "id":  "41",
+        "flight_number":  "W41280",
+        "destination":  "Barcelona",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "B01",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T11:40:00+03:00"
+    },
+    {
+        "id":  "42",
+        "flight_number":  "RO1287",
+        "destination":  "Cluj-Napoca",
+        "airline":  "TAROM",
+        "status":  "On Time",
+        "gate":  "C02",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T11:50:00+03:00"
+    },
+    {
+        "id":  "43",
+        "flight_number":  "LH1294",
+        "destination":  "Frankfurt",
+        "airline":  "Lufthansa",
+        "status":  "Delayed",
+        "gate":  "A03",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T12:00:00+03:00"
+    },
+    {
+        "id":  "44",
+        "flight_number":  "FR1301",
+        "destination":  "Brussels Charleroi",
+        "airline":  "Ryanair",
+        "status":  "On Time",
+        "gate":  "B04",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T12:10:00+03:00"
+    },
+    {
+        "id":  "45",
+        "flight_number":  "W41308",
+        "destination":  "Madrid",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "C05",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T12:20:00+03:00"
+    },
+    {
+        "id":  "46",
+        "flight_number":  "RO1315",
+        "destination":  "Timisoara",
+        "airline":  "TAROM",
+        "status":  "Delayed",
+        "gate":  "A06",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T12:30:00+03:00"
+    },
+    {
+        "id":  "47",
+        "flight_number":  "W41322",
+        "destination":  "Lisbon",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "B07",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T12:40:00+03:00"
+    },
+    {
+        "id":  "48",
+        "flight_number":  "FR1329",
+        "destination":  "Dublin",
+        "airline":  "Ryanair",
+        "status":  "Cancelled",
+        "gate":  "C08",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T12:50:00+03:00"
+    },
+    {
+        "id":  "49",
+        "flight_number":  "SK1336",
+        "destination":  "Copenhagen",
+        "airline":  "Scandinavian Airlines",
+        "status":  "On Time",
+        "gate":  "A09",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T13:00:00+03:00"
+    },
+    {
+        "id":  "50",
+        "flight_number":  "AY1343",
+        "destination":  "Helsinki",
+        "airline":  "Finnair",
+        "status":  "On Time",
+        "gate":  "B10",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T13:10:00+03:00"
+    },
+    {
+        "id":  "51",
+        "flight_number":  "RO1350",
+        "destination":  "London Heathrow",
+        "airline":  "TAROM",
+        "status":  "On Time",
+        "gate":  "C11",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T13:20:00+03:00"
+    },
+    {
+        "id":  "52",
+        "flight_number":  "LH1357",
+        "destination":  "Munich",
+        "airline":  "Lufthansa",
+        "status":  "On Time",
+        "gate":  "A12",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T13:30:00+03:00"
+    },
+    {
+        "id":  "53",
+        "flight_number":  "W41364",
+        "destination":  "Milan Malpensa",
+        "airline":  "Wizz Air",
+        "status":  "Delayed",
+        "gate":  "B13",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T13:40:00+03:00"
+    },
+    {
+        "id":  "54",
+        "flight_number":  "TK1371",
+        "destination":  "Istanbul",
+        "airline":  "Turkish Airlines",
+        "status":  "On Time",
+        "gate":  "C14",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T13:50:00+03:00"
+    },
+    {
+        "id":  "55",
+        "flight_number":  "AF1378",
+        "destination":  "Paris Charles de Gaulle",
+        "airline":  "Air France",
+        "status":  "On Time",
+        "gate":  "A15",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T14:00:00+03:00"
+    },
+    {
+        "id":  "56",
+        "flight_number":  "KL1385",
+        "destination":  "Amsterdam",
+        "airline":  "KLM",
+        "status":  "Delayed",
+        "gate":  "B16",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T14:10:00+03:00"
+    },
+    {
+        "id":  "57",
+        "flight_number":  "OS1392",
+        "destination":  "Vienna",
+        "airline":  "Austrian Airlines",
+        "status":  "On Time",
+        "gate":  "C17",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T14:20:00+03:00"
+    },
+    {
+        "id":  "58",
+        "flight_number":  "LX1399",
+        "destination":  "Zurich",
+        "airline":  "Swiss",
+        "status":  "Cancelled",
+        "gate":  "A18",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T14:30:00+03:00"
+    },
+    {
+        "id":  "59",
+        "flight_number":  "FR1406",
+        "destination":  "Rome Fiumicino",
+        "airline":  "Ryanair",
+        "status":  "On Time",
+        "gate":  "B19",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T14:40:00+03:00"
+    },
+    {
+        "id":  "60",
+        "flight_number":  "BA1413",
+        "destination":  "London Heathrow",
+        "airline":  "British Airways",
+        "status":  "On Time",
+        "gate":  "C20",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T14:50:00+03:00"
+    },
+    {
+        "id":  "61",
+        "flight_number":  "LO1420",
+        "destination":  "Warsaw",
+        "airline":  "LOT Polish Airlines",
+        "status":  "On Time",
+        "gate":  "A01",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T15:00:00+03:00"
+    },
+    {
+        "id":  "62",
+        "flight_number":  "A31427",
+        "destination":  "Athens",
+        "airline":  "Aegean Airlines",
+        "status":  "On Time",
+        "gate":  "B02",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T15:10:00+03:00"
+    },
+    {
+        "id":  "63",
+        "flight_number":  "JU1434",
+        "destination":  "Belgrade",
+        "airline":  "Air Serbia",
+        "status":  "Delayed",
+        "gate":  "C03",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T15:20:00+03:00"
+    },
+    {
+        "id":  "64",
+        "flight_number":  "FZ1441",
+        "destination":  "Dubai",
+        "airline":  "flydubai",
+        "status":  "On Time",
+        "gate":  "A04",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T15:30:00+03:00"
+    },
+    {
+        "id":  "65",
+        "flight_number":  "QR1448",
+        "destination":  "Doha",
+        "airline":  "Qatar Airways",
+        "status":  "On Time",
+        "gate":  "B05",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T15:40:00+03:00"
+    },
+    {
+        "id":  "66",
+        "flight_number":  "W41455",
+        "destination":  "Barcelona",
+        "airline":  "Wizz Air",
+        "status":  "Delayed",
+        "gate":  "C06",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T15:50:00+03:00"
+    },
+    {
+        "id":  "67",
+        "flight_number":  "RO1462",
+        "destination":  "Cluj-Napoca",
+        "airline":  "TAROM",
+        "status":  "On Time",
+        "gate":  "A07",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T16:00:00+03:00"
+    },
+    {
+        "id":  "68",
+        "flight_number":  "LH1469",
+        "destination":  "Frankfurt",
+        "airline":  "Lufthansa",
+        "status":  "Cancelled",
+        "gate":  "B08",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T16:10:00+03:00"
+    },
+    {
+        "id":  "69",
+        "flight_number":  "FR1476",
+        "destination":  "Brussels Charleroi",
+        "airline":  "Ryanair",
+        "status":  "On Time",
+        "gate":  "C09",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T16:20:00+03:00"
+    },
+    {
+        "id":  "70",
+        "flight_number":  "W41483",
+        "destination":  "Madrid",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "A10",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T16:30:00+03:00"
+    },
+    {
+        "id":  "71",
+        "flight_number":  "RO1490",
+        "destination":  "Timisoara",
+        "airline":  "TAROM",
+        "status":  "On Time",
+        "gate":  "B11",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T16:40:00+03:00"
+    },
+    {
+        "id":  "72",
+        "flight_number":  "W41497",
+        "destination":  "Lisbon",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "C12",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T16:50:00+03:00"
+    },
+    {
+        "id":  "73",
+        "flight_number":  "FR1504",
+        "destination":  "Dublin",
+        "airline":  "Ryanair",
+        "status":  "Delayed",
+        "gate":  "A13",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T17:00:00+03:00"
+    },
+    {
+        "id":  "74",
+        "flight_number":  "SK1511",
+        "destination":  "Copenhagen",
+        "airline":  "Scandinavian Airlines",
+        "status":  "On Time",
+        "gate":  "B14",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T17:10:00+03:00"
+    },
+    {
+        "id":  "75",
+        "flight_number":  "AY1518",
+        "destination":  "Helsinki",
+        "airline":  "Finnair",
+        "status":  "On Time",
+        "gate":  "C15",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T17:20:00+03:00"
+    },
+    {
+        "id":  "76",
+        "flight_number":  "RO1525",
+        "destination":  "London Heathrow",
+        "airline":  "TAROM",
+        "status":  "Delayed",
+        "gate":  "A16",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T17:30:00+03:00"
+    },
+    {
+        "id":  "77",
+        "flight_number":  "LH1532",
+        "destination":  "Munich",
+        "airline":  "Lufthansa",
+        "status":  "On Time",
+        "gate":  "B17",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T17:40:00+03:00"
+    },
+    {
+        "id":  "78",
+        "flight_number":  "W41539",
+        "destination":  "Milan Malpensa",
+        "airline":  "Wizz Air",
+        "status":  "Cancelled",
+        "gate":  "C18",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T17:50:00+03:00"
+    },
+    {
+        "id":  "79",
+        "flight_number":  "TK1546",
+        "destination":  "Istanbul",
+        "airline":  "Turkish Airlines",
+        "status":  "On Time",
+        "gate":  "A19",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T18:00:00+03:00"
+    },
+    {
+        "id":  "80",
+        "flight_number":  "AF1553",
+        "destination":  "Paris Charles de Gaulle",
+        "airline":  "Air France",
+        "status":  "On Time",
+        "gate":  "B20",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T18:10:00+03:00"
+    },
+    {
+        "id":  "81",
+        "flight_number":  "KL1560",
+        "destination":  "Amsterdam",
+        "airline":  "KLM",
+        "status":  "On Time",
+        "gate":  "C01",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T18:20:00+03:00"
+    },
+    {
+        "id":  "82",
+        "flight_number":  "OS1567",
+        "destination":  "Vienna",
+        "airline":  "Austrian Airlines",
+        "status":  "On Time",
+        "gate":  "A02",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T18:30:00+03:00"
+    },
+    {
+        "id":  "83",
+        "flight_number":  "LX1574",
+        "destination":  "Zurich",
+        "airline":  "Swiss",
+        "status":  "Delayed",
+        "gate":  "B03",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T18:40:00+03:00"
+    },
+    {
+        "id":  "84",
+        "flight_number":  "FR1581",
+        "destination":  "Rome Fiumicino",
+        "airline":  "Ryanair",
+        "status":  "On Time",
+        "gate":  "C04",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T18:50:00+03:00"
+    },
+    {
+        "id":  "85",
+        "flight_number":  "BA1588",
+        "destination":  "London Heathrow",
+        "airline":  "British Airways",
+        "status":  "On Time",
+        "gate":  "A05",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T19:00:00+03:00"
+    },
+    {
+        "id":  "86",
+        "flight_number":  "LO1595",
+        "destination":  "Warsaw",
+        "airline":  "LOT Polish Airlines",
+        "status":  "Delayed",
+        "gate":  "B06",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T19:10:00+03:00"
+    },
+    {
+        "id":  "87",
+        "flight_number":  "A31602",
+        "destination":  "Athens",
+        "airline":  "Aegean Airlines",
+        "status":  "On Time",
+        "gate":  "C07",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T19:20:00+03:00"
+    },
+    {
+        "id":  "88",
+        "flight_number":  "JU1609",
+        "destination":  "Belgrade",
+        "airline":  "Air Serbia",
+        "status":  "Cancelled",
+        "gate":  "A08",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T19:30:00+03:00"
+    },
+    {
+        "id":  "89",
+        "flight_number":  "FZ1616",
+        "destination":  "Dubai",
+        "airline":  "flydubai",
+        "status":  "On Time",
+        "gate":  "B09",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T19:40:00+03:00"
+    },
+    {
+        "id":  "90",
+        "flight_number":  "QR1623",
+        "destination":  "Doha",
+        "airline":  "Qatar Airways",
+        "status":  "On Time",
+        "gate":  "C10",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T19:50:00+03:00"
+    },
+    {
+        "id":  "91",
+        "flight_number":  "W41630",
+        "destination":  "Barcelona",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "A11",
+        "terminal":  "1",
+        "departure_time":  "2026-10-23T20:00:00+03:00"
+    },
+    {
+        "id":  "92",
+        "flight_number":  "RO1637",
+        "destination":  "Cluj-Napoca",
+        "airline":  "TAROM",
+        "status":  "On Time",
+        "gate":  "B12",
+        "terminal":  "2",
+        "departure_time":  "2026-10-23T20:10:00+03:00"
+    },
+    {
+        "id":  "93",
+        "flight_number":  "LH1644",
+        "destination":  "Frankfurt",
+        "airline":  "Lufthansa",
+        "status":  "Delayed",
+        "gate":  "C13",
+        "terminal":  "3",
+        "departure_time":  "2026-10-23T20:20:00+03:00"
+    },
+    {
+        "id":  "94",
+        "flight_number":  "FR1651",
+        "destination":  "Brussels Charleroi",
+        "airline":  "Ryanair",
+        "status":  "On Time",
+        "gate":  "A14",
+        "terminal":  "4",
+        "departure_time":  "2026-10-23T20:30:00+03:00"
+    },
+    {
+        "id":  "95",
+        "flight_number":  "W41658",
+        "destination":  "Madrid",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "B15",
+        "terminal":  "5",
+        "departure_time":  "2026-10-23T20:40:00+03:00"
+    },
+    {
+        "id":  "96",
+        "flight_number":  "RO1665",
+        "destination":  "Timisoara",
+        "airline":  "TAROM",
+        "status":  "Delayed",
+        "gate":  "C16",
+        "terminal":  "6",
+        "departure_time":  "2026-10-23T20:50:00+03:00"
+    },
+    {
+        "id":  "97",
+        "flight_number":  "W41672",
+        "destination":  "Lisbon",
+        "airline":  "Wizz Air",
+        "status":  "On Time",
+        "gate":  "A17",
+        "terminal":  "7",
+        "departure_time":  "2026-10-23T21:00:00+03:00"
+    },
+    {
+        "id":  "98",
+        "flight_number":  "FR1679",
+        "destination":  "Dublin",
+        "airline":  "Ryanair",
+        "status":  "Cancelled",
+        "gate":  "B18",
+        "terminal":  "8",
+        "departure_time":  "2026-10-23T21:10:00+03:00"
+    },
+    {
+        "id":  "99",
+        "flight_number":  "SK1686",
+        "destination":  "Copenhagen",
+        "airline":  "Scandinavian Airlines",
+        "status":  "On Time",
+        "gate":  "C19",
+        "terminal":  "9",
+        "departure_time":  "2026-10-23T21:20:00+03:00"
+    },
+    {
+        "id":  "100",
+        "flight_number":  "AY1693",
+        "destination":  "Helsinki",
+        "airline":  "Finnair",
+        "status":  "On Time",
+        "gate":  "A20",
+        "terminal":  "10",
+        "departure_time":  "2026-10-23T21:30:00+03:00"
+    }
+]
