@@ -7,11 +7,11 @@ export interface Airport {
 }
 
 export const origin: Airport = {
-  code: 'OTP',
-  city: 'Bucharest',
-  name: 'Henri Coandă Intl.',
-  latitude: 44.5711,
-  longitude: 26.085,
+  code: 'CLJ',
+  city: 'Cluj-Napoca',
+  name: 'Avram Iancu Intl.',
+  latitude: 46.7852,
+  longitude: 23.6862,
 };
 
 // Static demo data, not live schedules or aircraft assignments.
@@ -73,12 +73,12 @@ const destinations: [string, string, string, string, number, number, number][] =
     ['Doha', 'DOH', 'Doha', 'Hamad Intl.', 25.2731, 51.6081, 280],
     ['Barcelona', 'BCN', 'Barcelona', 'El Prat Airport', 41.2974, 2.0833, 190],
     [
-      'Cluj-Napoca',
-      'CLJ',
-      'Cluj-Napoca',
-      'Avram Iancu Intl.',
-      46.7852,
-      23.6862,
+      'Bucharest',
+      'OTP',
+      'Bucharest',
+      'Henri Coandă Intl.',
+      44.5711,
+      26.085,
       55,
     ],
     [

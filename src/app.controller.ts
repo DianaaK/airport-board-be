@@ -6,12 +6,24 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('flights')
-  getFlights() {
+  async getFlights() {
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+
+    // throw new Error('Simulated flights error');
+
+    // return { message: 'Invalid flights data' };
+
+    // return [];
+
     return this.appService.getFlights();
   }
 
   @Get('flights/:id')
-  getFlightById(@Param('id') id: string) {
+  async getFlightById(@Param('id') id: string) {
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+
+    // throw new Error('Simulated details error');
+
     return this.appService.getFlightById(id);
   }
 }

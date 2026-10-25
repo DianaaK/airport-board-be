@@ -41,7 +41,7 @@ describe('AppController (e2e)', () => {
       .expect(200);
     expect(response.body).toMatchObject({
       ...flights.find((flight) => flight.id === '41'),
-      origin: { code: 'OTP', city: 'Bucharest' },
+      origin: { code: 'CLJ', city: 'Cluj-Napoca' },
       destination_airport: { code: 'BCN', city: 'Barcelona' },
       duration_minutes: 190,
       aircraft: 'Airbus A321',
