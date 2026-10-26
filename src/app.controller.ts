@@ -15,6 +15,10 @@ export class AppController {
 
     // return [];
 
+    // return null;
+
+    // return 'invalid JSON';
+
     return this.appService.getFlights();
   }
 
@@ -23,6 +27,12 @@ export class AppController {
     await new Promise((resolve) => setTimeout(resolve, 2000));
 
     // throw new Error('Simulated details error');
+
+    // return null;
+
+    // return [];
+
+    // return 'invalid JSON';
 
     return this.appService.getFlightById(id);
   }

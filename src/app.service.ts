@@ -6,27 +6,32 @@ import {
   aircraftDetails,
 } from './data/flight-details.js';
 
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+  value !== null && typeof value === 'object' && !Array.isArray(value);
+
 @Injectable()
 export class AppService {
-
   getFlights() {
     return flights;
   }
 
   getFlightById(id: string) {
-    const flight = flights.find((flight) => flight.id === id);
-    if (!flight) {
+    const flight = (flights as unknown[]).find(
+      (value) => isRecord(value) && value.id?.toString() === id,
+    );
+    if (!isRecord(flight)) {
       throw new NotFoundException(`Flight with id "${id}" not found`);
     }
 
-    const { airport, duration_minutes } =
-      destinationDetails[flight.destination];
+    const destination = flight.destination as keyof typeof destinationDetails;
+    const airline = flight.airline as keyof typeof aircraftDetails;
+    const { airport, duration_minutes } = destinationDetails[destination];
     return {
-      ...flight,
       origin,
       destination_airport: airport,
       duration_minutes,
-      ...aircraftDetails[flight.airline],
+      ...aircraftDetails[airline],
+      ...flight,
     };
   }
 }

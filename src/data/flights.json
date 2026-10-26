@@ -845,55 +845,12 @@
     "terminal_number": "4",
     "departure_time": "2026-10-23T19:00:00+03:00"
   },
+  null,
+  "invalid flight record",
+  42,
+  [],
   {
-    "id": "86",
-    "flight_number": "LO1595",
-    "destination": "Warsaw",
-    "airline": "LOT Polish Airlines",
-    "status": "Delayed",
-    "gate": "B06",
-    "terminal_number": "4",
-    "departure_time": "2026-10-23T19:10:00+03:00"
-  },
-  {
-    "id": "87",
-    "flight_number": "A31602",
-    "destination": "Athens",
-    "airline": "Aegean Airlines",
-    "status": "On Time",
-    "gate": "C07",
-    "terminal_number": "1",
-    "departure_time": "2026-10-23T19:20:00+03:00"
-  },
-  {
-    "id": "88",
-    "flight_number": "JU1609",
-    "destination": "Belgrade",
-    "airline": "Air Serbia",
-    "status": "Cancelled",
-    "gate": "A08",
-    "terminal_number": "7",
-    "departure_time": "2026-10-23T19:30:00+03:00"
-  },
-  {
-    "id": "89",
-    "flight_number": "FZ1616",
-    "destination": "Dubai",
-    "airline": "flydubai",
-    "status": "On Time",
-    "gate": "B09",
-    "terminal_number": "1",
-    "departure_time": "2026-10-23T19:40:00+03:00"
-  },
-  {
-    "id": "90",
-    "flight_number": "QR1623",
-    "destination": "Doha",
-    "airline": "Qatar Airways",
-    "status": "On Time",
-    "gate": "C10",
-    "terminal_number": "1",
-    "departure_time": "2026-10-23T19:50:00+03:00"
+    "terminal_number": "T"
   },
   {
     "id": "91",
@@ -902,8 +859,15 @@
     "airline": "Wizz Air",
     "status": "On Time",
     "gate": "A11",
-    "terminal_number": "1",
-    "departure_time": "2026-10-23T20:00:00+03:00"
+    "terminal_number": "T",
+    "departure_time": "2026-10-23T20:00:00+03:00",
+    "destination_airport": {
+      "code": "BCN",
+      "city": "Barcelona",
+      "name": "El Prat Airport",
+      "latitude": 200,
+      "longitude": "invalid"
+    }
   },
   {
     "id": "92",
@@ -912,18 +876,20 @@
     "airline": "TAROM",
     "status": "On Time",
     "gate": "B12",
-    "terminal_number": "8",
-    "departure_time": "2026-10-23T20:10:00+03:00"
+    "terminal_number": "T",
+    "departure_time": "2026-10-23T20:10:00+03:00",
+    "origin": null,
+    "destination_airport": null
   },
   {
     "id": "93",
-    "flight_number": "LH1644",
+    "flight_number": "VERY-LONG-FLIGHT-NUMBER-1644",
     "destination": "Frankfurt",
     "airline": "Lufthansa",
     "status": "Delayed",
-    "gate": "C13",
-    "terminal_number": "3",
-    "departure_time": "2026-10-23T20:20:00+03:00"
+    "gate": "VERY-LONG-GATE-NAME-THAT-IS-LONG",
+    "terminal_number": "T",
+    "departure_time": 123
   },
   {
     "id": "94",
@@ -932,8 +898,8 @@
     "airline": "Ryanair",
     "status": "On Time",
     "gate": "A14",
-    "terminal_number": "6",
-    "departure_time": "2026-10-23T20:30:00+03:00"
+    "terminal_number": "T",
+    "departure_time": 12345
   },
   {
     "id": "95",
@@ -942,18 +908,21 @@
     "airline": "Wizz Air",
     "status": "On Time",
     "gate": "B15",
-    "terminal_number": "2",
-    "departure_time": "2026-10-23T20:40:00+03:00"
+    "terminal_number": "T",
+    "departure_time": "2026-10-23T20:40:00+03:00",
+    "destination_airport": ["invalid airport"],
+    "duration_minutes": ""
   },
   {
     "id": "96",
-    "flight_number": "RO1665",
     "destination": "Timisoara",
     "airline": "TAROM",
     "status": "Delayed",
-    "gate": "C16",
-    "terminal_number": "8",
-    "departure_time": "2026-10-23T20:50:00+03:00"
+    "origin": null,
+    "destination_airport": null,
+    "duration_minutes": null,
+    "aircraft": null,
+    "registration": null
   },
   {
     "id": "97",
@@ -962,8 +931,16 @@
     "airline": "Wizz Air",
     "status": "On Time",
     "gate": "A17",
-    "terminal_number": "10",
-    "departure_time": "2026-10-23T21:00:00+03:00"
+    "terminal_number": "T",
+    "departure_time": "not-a-date",
+    "duration_minutes": "not-a-number",
+    "origin": {
+      "code": "CLJ",
+      "city": "Cluj-Napoca",
+      "name": "Avram Iancu Intl.",
+      "latitude": "not-a-number",
+      "longitude": "23.6862"
+    }
   },
   {
     "id": "98",
@@ -971,28 +948,48 @@
     "destination": "Dublin",
     "airline": "Ryanair",
     "status": "Cancelled",
-    "gate": "B18",
-    "terminal_number": "8",
-    "departure_time": "2026-10-23T21:10:00+03:00"
+    "gate": {
+      "name": "B18"
+    },
+    "terminal_number": "T",
+    "departure_time": "2026-10-23T21:10:00+03:00",
+    "aircraft": {
+      "model": "Boeing 737-800"
+    },
+    "registration": 737800
   },
   {
     "id": "99",
     "flight_number": "SK1686",
     "destination": "Copenhagen",
     "airline": "Scandinavian Airlines",
-    "status": "On Time",
+    "status": "Boarding soon",
     "gate": "C19",
-    "terminal_number": "6",
-    "departure_time": "2026-10-23T21:20:00+03:00"
+    "terminal_number": "T",
+    "departure_time": "2026-10-23T21:20:00+03:00",
+    "destination_airport": {
+      "code": 123,
+      "city": null,
+      "name": {
+        "value": "Copenhagen Airport"
+      },
+      "latitude": "invalid-latitude",
+      "longitude": "12.6508"
+    },
+    "duration_minutes": -15
   },
   {
     "id": "100",
-    "flight_number": "AY1693",
+    "flight_number": null,
     "destination": "Helsinki",
     "airline": "Finnair",
-    "status": "On Time",
-    "gate": "A20",
-    "terminal_number": "3",
-    "departure_time": "2026-10-23T21:30:00+03:00"
+    "status": null,
+    "gate": "",
+    "terminal_number": "T",
+    "departure_time": "",
+    "destination_airport": {},
+    "duration_minutes": "",
+    "aircraft": "",
+    "registration": ""
   }
 ]
